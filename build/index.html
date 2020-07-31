@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Dapp</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+
+    <h1>Simple Dapp</h1>
+
+    <h3>Balance: </h3>
+    <p id="balance"></p>
+
+    <hr>
+
+    <h3>Message: </h3>
+    <p id="message"></p>
+
+    <hr>
+
+    <h3>Set new message: </h3>
+    <input type="text" id="input">
+    <br><br><button onclick="App.setMessage()">Set message</button>
+    <br><br>
+    <hr>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
